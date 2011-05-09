@@ -1,3 +1,6 @@
+import shogun.KernelJNI
+import shogun.GaussianKernel
+
 public class minimal_test {
     static {
         System.loadLibrary("Kernel");
